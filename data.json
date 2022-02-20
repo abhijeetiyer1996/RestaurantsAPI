@@ -1,0 +1,130 @@
+[
+    {
+    
+        "restaurant_name": "Trick or treat fast Food Center",
+        "address": "Japan",
+        "vegOnly": false,
+        "cost": "medium",
+        "cuisineTypes": [
+            "French",
+            "Japanese"
+        ]
+    },
+    {
+    
+        "restaurant_name": "Balaji Food Center",
+        "address": "Tamil Nadu",
+        "vegOnly": false,
+        "cost": "high",
+        "cuisineTypes": [
+            "South Indian"
+        ],
+        "createdAt": "2022-02-19T23:30:15.183Z",
+        "updatedAt": "2022-02-19T23:30:15.183Z"
+    },
+    {
+    
+        "restaurant_name": "Triupathi Food Center",
+        "address": "Chennai",
+        "vegOnly": false,
+        "cost": "high",
+        "cuisineTypes": [
+            "South Indian",
+            "Italian",
+            "French",
+            "Mexican"
+        ],
+        "createdAt": "2022-02-19T23:36:21.276Z",
+        "updatedAt": "2022-02-19T23:36:21.276Z"
+    },
+    {
+    
+        "restaurant_name": "Yummy treats",
+        "address": "Mumbai",
+        "vegOnly": true,
+        "cost": "medium",
+        "cuisineTypes": [
+            "Chinese",
+            "Italian",
+            "French",
+            "Mexican"
+        ]
+    },
+    {
+    
+        "restaurant_name": "Delicious Fast Food Center",
+        "address": "Chandini Chowk, Delhi",
+        "vegOnly": true,
+        "cost": "low",
+        "cuisineTypes": [
+            "South Indian",
+            "Chinese",
+            "North Indian"
+        ],
+        "createdAt": "2022-02-19T23:36:21.276Z",
+        "updatedAt": "2022-02-19T23:39:47.454Z"
+    },
+    {
+    
+        "restaurant_name": "The Big Restro",
+        "address": "CSMT, Mumbai",
+        "vegOnly": false,
+        "cost": "low",
+        "cuisineTypes": [
+            "South Indian",
+            "Chinese",
+            "North Indian",
+            "French",
+            "Italian"
+        ]
+    },
+    {
+    
+        "restaurant_name": "Yummies",
+        "address": "Nagpur",
+        "vegOnly": true,
+        "cost": "medium",
+        "cuisineTypes": [
+            "South Indian",
+            "French",
+            "Italian"
+        ]
+    },
+    {
+
+        "restaurant_name": "Sandwich Corner",
+        "address": "Thane, Mumbai",
+        "vegOnly": true,
+        "cost": "low",
+        "cuisineTypes": [
+            "French",
+            "Italian",
+            "Mexican"
+        ]
+    },
+    {
+    
+        "restaurant_name": "TasteWell Restro",
+        "address": "Mumbai",
+        "vegOnly": true,
+        "cost": "high",
+        "cuisineTypes": [
+            "North Indian",
+            "French",
+            "Italian"
+        ]
+    },
+    {
+    
+        "restaurant_name": "Food Puzzle",
+        "address": "Hyderabad",
+        "vegOnly": true,
+        "cost": "high",
+        "cuisineTypes": [
+            "Chinese",
+            "French",
+            "Italian",
+            "Mexican"
+        ]
+    }
+]
