@@ -80,7 +80,7 @@ router.post('/', async(req,res) => {
         // let message = [];     //commented code for multiple entries
         // for(const row of data)
         // {
-            let record = await restaurantModel.create(date);
+            let record = await restaurantModel.create(data);
             message = `records updated with ids ${record.restaurant_id} -- `;
         // }
         res.status(200).json({
