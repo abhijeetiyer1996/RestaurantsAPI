@@ -100,7 +100,7 @@ npm run dev
 <pre><code class="has-line-data" data-line-start="59" data-line-end="88" class="language-sh">//(Get all the records present <span class="hljs-keyword">in</span> the table)
 GET: localhost:<span class="hljs-number">3000</span>/restaurants
 
-//(gets all the veg restaurants present <span class="hljs-keyword">in</span> the table)
+//(Get all the veg restaurants present <span class="hljs-keyword">in</span> the table)
 GET: localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>
 
 //(Get all veg restaurants with cost low)
