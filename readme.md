@@ -95,10 +95,24 @@ npm run dev
 <li class="has-line-data" data-line-start="48" data-line-end="56">Use the below <code>json</code> format for uploading records to the table (in the body --&gt; raw in postman).<br>
 <code>{ &quot;restaurant_name&quot;: &quot;Trick or treat fast Food Center&quot;, &quot;address&quot;: &quot;Japan&quot;, &quot;vegOnly&quot;: false, &quot;cost&quot;: &quot;medium&quot;, &quot;cuisineTypes&quot;: [&quot;French&quot;,&quot;Japanese&quot;] }</code></li>
 <li class="has-line-data" data-line-start="56" data-line-end="57">Check if the data was uploaded to the table in postgres database</li>
-<li class="has-line-data" data-line-start="57" data-line-end="58">Queries for filtering the data</li>
+<li class="has-line-data" data-line-start="57" data-line-end="58">Queries for CRUD &amp; filtering the data</li>
 </ul>
-<pre><code class="has-line-data" data-line-start="59" data-line-end="73" class="language-sh">//(gets all the records present <span class="hljs-keyword">in</span> the table)
-GET: localhost:<span class="hljs-number">3000</span>/restaurants 
+<pre><code class="has-line-data" data-line-start="59" data-line-end="87" class="language-sh">//(Get all the records present <span class="hljs-keyword">in</span> the table)
+GET: localhost:<span class="hljs-number">3000</span>/restaurants
+//(gets all the veg restaurants present <span class="hljs-keyword">in</span> the table)
+GET: localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>
+
+//(Get all veg restaurants with cost low)
+GET:localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>&amp;cost=low
+
+//(Get all veg restaurants with cost low or high)
+GET:localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>&amp;cost=low,high&amp;opCost=or
+
+//(Get all veg restaurants with cost low or high and cuisine <span class="hljs-built_in">type</span> french or italian)
+GET:localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>&amp;cost=low,high&amp;opCost=or&amp;cuisineTypes=French,Italian&amp;opCT=or
+
+//(Get all veg restaurants with cost low or high and CuisineTypes french and Italian)
+localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>&amp;cost=low,high&amp;opCost=or&amp;cuisineTypes=French,Italian&amp;opCT=and
 
 //(headers-{Content-type:<span class="hljs-string">"application/json"</span>} 
 //<span class="hljs-built_in">set</span> body:json format spcified above)
