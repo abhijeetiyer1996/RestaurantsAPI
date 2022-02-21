@@ -97,8 +97,9 @@ npm run dev
 <li class="has-line-data" data-line-start="56" data-line-end="57">Check if the data was uploaded to the table in postgres database</li>
 <li class="has-line-data" data-line-start="57" data-line-end="58">Queries for CRUD &amp; filtering the data</li>
 </ul>
-<pre><code class="has-line-data" data-line-start="59" data-line-end="87" class="language-sh">//(Get all the records present <span class="hljs-keyword">in</span> the table)
+<pre><code class="has-line-data" data-line-start="59" data-line-end="88" class="language-sh">//(Get all the records present <span class="hljs-keyword">in</span> the table)
 GET: localhost:<span class="hljs-number">3000</span>/restaurants
+
 //(gets all the veg restaurants present <span class="hljs-keyword">in</span> the table)
 GET: localhost:<span class="hljs-number">3000</span>/restaurants?vegOnly=<span class="hljs-literal">true</span>
 
